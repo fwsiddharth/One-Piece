@@ -1,5 +1,7 @@
 const { Client, GatewayIntentBits } = require('discord.js');
-require('dotenv').config();
+if (process.env.NODE_ENV !== 'production') {
+    require('dotenv').config();
+}
 
 const TOKEN = process.env.BOT_TOKEN;
 
