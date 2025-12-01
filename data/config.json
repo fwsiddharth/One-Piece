@@ -1,0 +1,11 @@
+{
+  "1429144442836881603": {
+    "autoRole": "1445029414491656234",
+    "autoresponses": [
+      {
+        "keyword": "hello",
+        "response": "konnichiwa"
+      }
+    ]
+  }
+}
